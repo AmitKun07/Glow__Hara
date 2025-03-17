@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #a04d69;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+.pixel-title {
+    font-size: 28px;
+    color: #ffd700;
+    text-shadow: 3px 3px 6px black;
+}
+.pixel-section {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+button {
+    background: #ffd700;
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #ffcc00;
+    transform: scale(1.1);
+}
+footer {
+    background: #222;
+    padding: 20px;
+    margin-top: 20px;
+}
